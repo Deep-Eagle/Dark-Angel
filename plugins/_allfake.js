@@ -87,19 +87,19 @@ handler.command = /^(fake)$/i
 export default handler
 
 function ucapan() {
-  const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
+  const time = moment.tz('Asia/Colombo').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
   let res = "👋 *BIENVENIDO(A) | WELCOME* 👋"
   if (time >= 4) {
-    res = "🌇 *Buenos Días | Good Morning* ⛅"
+    res = "🌇 *සුභ උදෑසනක් | Good Morning* ⛅"
   }
   if (time >= 11) {
-    res = "🏙️ *Buenas Tardes | Good Afternoon* 🌤️"
+    res = "🏙️ *සුභ සන්ධ්යාවක් | Good Afternoon* 🌤️"
   }
   if (time >= 15) {
-    res = "🌆 *Buenas tardes | Good Afternoon* 🌥️"
+    res = "🌆 *සුභ සන්ධ්යාවක් | Good Afternoon* 🌥️"
   }
   if (time >= 17) {
-    res = "🌃 *Buenas noches | Good Evening* 💫"
+    res = "🌃 *සුභ රාත්රියක් | Good Evening* 💫"
   }
   return res
 } 

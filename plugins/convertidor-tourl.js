@@ -1,5 +1,3 @@
-/*Créditos a https://github.com/Azami19*/
-
 import uploadFile from '../lib/uploadFile.js'
 import uploadImage from '../lib/uploadImage.js'
 import fetch from 'node-fetch'
